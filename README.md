@@ -2,7 +2,7 @@
 
 本地阅读优化版。继承自 [gedoor/legado](https://github.com/gedoor/legado)，fork 自 [Luoyacheng/legado](https://github.com/Luoyacheng/legado)。
 
-## 主要特点
+## 主要区别
 
 **偏向本地阅读**：重点优化 TXT/EPUB 本地导入、书架整理、离线搜索和替换净化。
 
@@ -23,7 +23,7 @@
 
 ## 更新记录
 
-详见 [CHANGELOG.md](CHANGELOG.md)
+详见 [CHANGELOG.md](CHANGELOG.md)（更新记录不全）
 
 ## 开源协议
 
