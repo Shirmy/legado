@@ -18,3 +18,7 @@ package-lock.json
 .kotlin/
 .cxx
 .vscode
+
+# JVM crash logs
+hs_err_pid*.log
+replay_pid*.log
