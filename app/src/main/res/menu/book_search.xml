@@ -1,0 +1,60 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="AlwaysShowAction">
+
+    <item
+        android:id="@+id/menu_precision_search"
+        android:checkable="true"
+        android:title="@string/precision_search"
+        app:showAsAction="never" />
+
+    <group
+        android:id="@+id/menu_group_local_search"
+        android:checkableBehavior="single"
+        android:visible="false">
+
+        <item
+            android:id="@+id/menu_search_all"
+            android:checked="true"
+            android:title="@string/search_all" />
+
+        <item
+            android:id="@+id/menu_search_name"
+            android:title="@string/search_by_book_name" />
+
+        <item
+            android:id="@+id/menu_search_author"
+            android:title="@string/search_by_author" />
+
+        <item
+            android:id="@+id/menu_search_tag"
+            android:title="@string/search_by_tag" />
+
+    </group>
+
+    <item
+        android:id="@+id/menu_select_group"
+        android:title="@string/group_select"
+        android:visible="false"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_source_manage"
+        android:title="@string/book_source_manage"
+        android:visible="false"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_search_scope"
+        android:title="@string/groups_or_source"
+        android:visible="false"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_log"
+        android:title="@string/log"
+        android:orderInCategory="9999"
+        app:showAsAction="never" />
+
+</menu>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="@string/word_count_range"
+            android:textColor="@color/primaryText"
+            android:textSize="15sp" />
+
+        <android.widget.GridLayout
+            android:id="@+id/ll_word_count"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="3">
+
+            <CheckBox
+                android:id="@+id/cb_word_short"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:tag="0,50000"
+                android:text="@string/word_count_short" />
+
+            <CheckBox
+                android:id="@+id/cb_word_medium_short"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:tag="50000,100000"
+                android:text="@string/word_count_medium_short" />
+
+            <CheckBox
+                android:id="@+id/cb_word_medium_long"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:tag="150000,250000"
+                android:text="@string/word_count_medium_long" />
+
+            <CheckBox
+                android:id="@+id/cb_word_medium_long_2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:tag="300000,450000"
+                android:text="@string/word_count_medium_long_2" />
+
+            <CheckBox
+                android:id="@+id/cb_word_long"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:tag="500000,950000"
+                android:text="@string/word_count_long" />
+
+            <CheckBox
+                android:id="@+id/cb_word_super_long"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:tag="1000000,999999999"
+                android:text="@string/word_count_super_long" />
+
+        </android.widget.GridLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="@string/tag_filter"
+            android:textColor="@color/primaryText"
+            android:textSize="15sp" />
+
+        <GridLayout
+            android:id="@+id/ll_tags"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="3" />
+
+    </LinearLayout>
+</ScrollView>
