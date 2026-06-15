@@ -1,10 +1,6 @@
 # 阅读Sigma
 
-基于 [legado 阅读](https://github.com/gedoor/legado) 的本地阅读优化版。
-
-## 项目来源
-
-继承自 [gedoor/legado](https://github.com/gedoor/legado)，fork 自 [Luoyacheng/legado](https://github.com/Luoyacheng/legado)。
+本地阅读优化版。继承自 [gedoor/legado](https://github.com/gedoor/legado)，fork 自 [Luoyacheng/legado](https://github.com/Luoyacheng/legado)。
 
 ## 主要特点
 
